@@ -1,9 +1,9 @@
-import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import React from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 
 const SingleProjectScreen = props => {
   return (
-    <View>
+    <View style={styles.screen}>
       <Text>Single Project Screen</Text>
     </View>
   );
@@ -12,8 +12,8 @@ const SingleProjectScreen = props => {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center"
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
 
